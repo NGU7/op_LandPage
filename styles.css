@@ -78,7 +78,7 @@ img {
     height: 250px;
 }
 
-.sec {
+.sec1 {
     background-color: #F9FAF8;
     height: 500px;
 }
@@ -114,6 +114,34 @@ img {
     border-width: 5px;
     border-color: #3882f6;
     border-radius: 15px;
+}
+
+.subtext {
+    color: grey;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    width: 800px;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bolder;
+   
 }
 
 
