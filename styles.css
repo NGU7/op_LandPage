@@ -80,15 +80,40 @@ img {
 
 .sec {
     background-color: #F9FAF8;
+    height: 500px;
 }
 
 .mTitle {
     display: flex;
     justify-content: center;
-    padding: 25px 0px;
+    padding-top: 25px;
+    margin: 50px 0px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.mBoxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+    margin: 0px 25px;
+    text-align: center;
+}
+.box {
+    height: 175px;
+    width: 175px;
+    background-color: #F9FAF8;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 15px;
 }
 
 
