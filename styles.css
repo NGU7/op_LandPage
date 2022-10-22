@@ -2,10 +2,17 @@
     box-sizing: border-box;
     list-style-type: none;
     font-family: 'Roboto', sans-serif, "Times New Roman";
+    padding: 0; /* important */
+    margin: 0; /* important */
 }
 
 body {
-    background-color: #1f2937;
+    background-color: #1F2937;
+}
+
+.nav {
+   
+    
 }
 .container {
     max-width: 1100px;
@@ -38,7 +45,6 @@ body {
 .uMid {
     display: flex;
     height: 500px;
-    
     align-items: center;
     justify-content: space-between;
 }
@@ -48,9 +54,9 @@ body {
 }
 
 .uBold {
-    
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 .uSub {
@@ -58,9 +64,31 @@ body {
     color: #e5e7eb;
 }
 
+button {
+    padding: 5px 24px;
+    border-radius: 9px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 0px;
+    margin-top: 15px;
+}
+
 img {
     width: 450px;
     height: 250px;
+}
+
+.sec {
+    background-color: #F9FAF8;
+}
+
+.mTitle {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 
