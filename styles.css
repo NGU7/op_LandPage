@@ -14,6 +14,7 @@ body {
    
     
 }
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -80,7 +81,7 @@ img {
 
 .sec1 {
     background-color: #F9FAF8;
-    height: 500px;
+    height: 450px;
 }
 
 .mTitle {
@@ -144,6 +145,56 @@ img {
    
 }
 
+.sec3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 280px;
+}
+
+.container3 {
+    display: flex;
+    border-radius: 10px;
+    width: 1100px;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    
+}
+
+.callBox {
+    display: flex;
+    width: 800px;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+.callLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cLtop {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.cLbot {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+ .B2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    
+ }
 
 
 
