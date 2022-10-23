@@ -18,6 +18,7 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+   
 }
 
 .header {
@@ -196,5 +197,17 @@ img {
     
  }
 
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    background-color: #1F2937;
+}
 
+.finalWords {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
